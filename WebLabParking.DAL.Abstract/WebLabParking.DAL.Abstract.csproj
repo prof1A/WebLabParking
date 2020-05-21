@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebLabParking.Entities\WebLabParking.Entities.csproj" />
+    <ProjectReference Include="..\WebLabParking.Models\WebLabParking.Models.csproj" />
+  </ItemGroup>
+
+</Project>

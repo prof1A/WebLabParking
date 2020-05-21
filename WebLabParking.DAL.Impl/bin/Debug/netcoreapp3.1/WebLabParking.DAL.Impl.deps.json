@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WebLabParking.DAL.Impl/1.0.0": {
+        "dependencies": {
+          "WebLabParking.DAL.Abstract": "1.0.0",
+          "WebLabParking.Entities": "1.0.0",
+          "WebLabParking.Models": "1.0.0"
+        },
+        "runtime": {
+          "WebLabParking.DAL.Impl.dll": {}
+        }
+      },
+      "WebLabParking.DAL.Abstract/1.0.0": {
+        "dependencies": {
+          "WebLabParking.Entities": "1.0.0",
+          "WebLabParking.Models": "1.0.0"
+        },
+        "runtime": {
+          "WebLabParking.DAL.Abstract.dll": {}
+        }
+      },
+      "WebLabParking.Entities/1.0.0": {
+        "runtime": {
+          "WebLabParking.Entities.dll": {}
+        }
+      },
+      "WebLabParking.Models/1.0.0": {
+        "runtime": {
+          "WebLabParking.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebLabParking.DAL.Impl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebLabParking.DAL.Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebLabParking.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebLabParking.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

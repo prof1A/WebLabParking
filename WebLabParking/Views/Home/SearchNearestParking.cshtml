@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ParkingDTO>
+<h2>Знайти найближчу парковку</h2>
+<a asp-action="FindFreePlaceParking">Знайти парковку з вільними місцями</a><br/><br/>
+<form asp-action="FindParkingTicketParking">
+    <input type="date" name="leavingDateTime"/>
+    <input type="submit" value="Знайти"/>
+</form><br/>
+
+

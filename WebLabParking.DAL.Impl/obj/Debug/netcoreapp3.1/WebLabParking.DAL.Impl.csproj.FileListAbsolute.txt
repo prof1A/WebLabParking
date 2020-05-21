@@ -1,0 +1,16 @@
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.deps.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.Entities.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.Models.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.Entities.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\bin\Debug\netcoreapp3.1\WebLabParking.Models.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.AssemblyInfoInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.AssemblyInfo.cs
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.csproj.CopyComplete
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Impl\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Impl.pdb

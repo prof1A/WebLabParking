@@ -1,0 +1,11 @@
+﻿@model ParkingDTO
+<h3>Парковочні місця:</h3>
+@foreach (var parkingPlaceDTO in Model.Places)
+{
+    <form asp-action="GetParkingTicket">
+        <input type=hidden asp-for="@parkingPlaceDTO.Number" />
+        <input type=hidden asp-for="@parkingPlaceDTO.Ticket.LeavingTime" />
+        <input type=hidden asp-for="@parkingPlaceDTO.Ticket.TakingTime" />
+        <input type="submit" class ="submitButton"value="@parkingPlaceDTO.Number" /><a asp-action="DeletePlace" asp-route-number="@parkingPlaceDTO.Number">Видалити</a>
+    </form>
+}

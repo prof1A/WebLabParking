@@ -1,0 +1,23 @@
+﻿@model ParkingPlaceDTO
+    <h2>Номер квитка: @Model?.Number</h2> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Видалити</a>
+<br />
+@if (@Model?.Ticket?.LeavingTime == new DateTime(1, 1, 1))
+{
+    <br/>
+    <form asp-action="ReserveTicket" method="post">
+        <label>Час, коли покинули</label>
+        <input type="date" name="leavingTime"/><br/>
+        <label >Час, коли заберете</label>
+        <input type="date" name="takingTime"/><br/>
+        <input type="submit" value="Забронювати місце"/>
+    </form>
+}
+else if (@Model?.Ticket?.LeavingTime == null)
+{
+    <h1>Не знайдено!</h1>
+}
+else
+{
+    <p>Час, коли залишили @Model?.Ticket?.LeavingTime.ToString("d")</p>
+    <p>Час, коли забрали @Model?.Ticket?.TakingTime.ToString("d")</p>
+}

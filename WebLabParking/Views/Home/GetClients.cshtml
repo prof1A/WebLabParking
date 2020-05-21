@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ClientDTO>
+<h2>Клієнти:</h2>
+<p>
+    Пошук:
+    <form asp-action="SearchClient">
+        <input type=text name="name" />
+        <input type="submit" value="Знайти" />
+    </form>
+</p>
+<hr/>
+@foreach (var client in Model)
+{
+    <p>
+        @client.Name<br />
+        Квитки:<br />
+
+        @foreach (var ticket in client.Tickets)
+        {
+            <span>Час, коли залишили</span> @ticket.LeavingTime
+            <span>Час, коли забрали</span> @ticket.TakingTime
+            <br />
+        }
+    </p>
+    <a asp-action="DeleteClient" asp-route-name="@client.Name">Видалити</a>
+    <br/><br /><hr/>
+}
+

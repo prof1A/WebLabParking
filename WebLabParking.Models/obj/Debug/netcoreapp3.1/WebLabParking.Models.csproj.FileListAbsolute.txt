@@ -1,0 +1,9 @@
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\bin\Debug\netcoreapp3.1\WebLabParking.Models.deps.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\bin\Debug\netcoreapp3.1\WebLabParking.Models.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\bin\Debug\netcoreapp3.1\WebLabParking.Models.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.AssemblyInfoInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.AssemblyInfo.cs
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Models\obj\Debug\netcoreapp3.1\WebLabParking.Models.pdb

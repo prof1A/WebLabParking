@@ -1,0 +1,9 @@
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\bin\Debug\netcoreapp3.1\WebLabParking.Configuration.deps.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\bin\Debug\netcoreapp3.1\WebLabParking.Configuration.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\bin\Debug\netcoreapp3.1\WebLabParking.Configuration.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.AssemblyInfoInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.AssemblyInfo.cs
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Configuration\obj\Debug\netcoreapp3.1\WebLabParking.Configuration.pdb

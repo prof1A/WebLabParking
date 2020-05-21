@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ParkingDTO>
+<div class="GetParkings">
+    @foreach (var parkingDTO in Model)
+    {
+        <form asp-action="GetParkingPlaces">
+            <input type=hidden asp-for="@parkingDTO.ParkingName" />
+            @for (int i = 0; i < @parkingDTO.Places.Count; i++)
+            {
+                <input type ="hidden" asp-for="@parkingDTO.Places[i].Number"/>
+                <input type ="hidden" asp-for="@parkingDTO.Places[i].Ticket.LeavingTime"/>
+                <input type ="hidden" asp-for="@parkingDTO.Places[i].Ticket.TakingTime"/>
+            }
+        <p><input class="submitButton" type="submit" value="@parkingDTO.ParkingName" /><a asp-action="DeleteParking" asp-route-parkingName="@parkingDTO.ParkingName">Видалити</a></p>
+        </form>
+    }
+
+</div>

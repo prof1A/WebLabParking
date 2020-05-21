@@ -1,0 +1,14 @@
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.deps.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.Entities.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.Models.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.Entities.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\bin\Debug\netcoreapp3.1\WebLabParking.Models.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.AssemblyInfoInputs.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.AssemblyInfo.cs
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.csproj.CopyComplete
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.dll
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.DAL.Abstract\obj\Debug\netcoreapp3.1\WebLabParking.DAL.Abstract.pdb

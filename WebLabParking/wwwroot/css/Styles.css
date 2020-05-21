@@ -1,0 +1,86 @@
+﻿html {
+    margin-left: 300px;
+    margin-right: 300px;
+    font: 300 24pt "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+    margin-left: -309px;
+    margin-right: -308px;
+    margin-top: -20px;
+    background: gray;
+    font-size: 18pt;
+    padding: 25px 309px 15px 308px;
+
+}
+header nav a {
+    color: ivory;
+    text-decoration: none;
+    font-size: 18pt;
+}
+header nav a:hover {
+    color: darkorange;
+}
+body {
+    background: darkgray;
+}
+.main {
+    /*margin-top: 10px;
+    padding-bottom: 10px;*/
+    border: 1px solid ivory;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14pt;
+}
+.main a {
+    text-decoration: none;
+    color: ivory;
+    border: 1px solid ivory;
+    border-radius: 5px;
+    padding: 10px;
+}
+.main a:hover {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+.submitButton {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14pt;
+    color: ivory;
+    border: 1px solid ivory;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+    .submitButton:hover {
+        color: black;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+.submitButton:hover {
+    cursor: pointer;
+}
+main button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+
+main button:hover {
+    background-position: right center;
+}

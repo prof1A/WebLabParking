@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/Styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a asp-controller="Home" asp-action="GetParkings">Парковки</a>
+        <a asp-controller="Home" asp-action="GetClients">Клієнти</a>
+        <a asp-controller="Home" asp-action="SearchNearestParking">Пошук найближчої парковки</a>
+    </nav>
+</header>
+<div class="main">
+    @RenderBody()
+</div>
+</body>
+</html>
