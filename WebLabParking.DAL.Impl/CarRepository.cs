@@ -1,28 +1,28 @@
 ﻿using System.Collections.Generic;
 using WebLabParking.DAL.Abstract;
 using WebLabParking.Entities;
+using System.Linq;
 
 namespace WebLabParking.DAL.Impl
 {
     public class CarRepository : ICarRepository
     {
-        public List<Car> db = new List<Car>();
+        private ParkingContext context;
 
-        public CarRepository()
+        public CarRepository(ParkingContext parkingContext)
         {
-            foreach (var i in DataBaseSimulation.cars)
-            {
-                db.Add(i);
-            }
+            context = parkingContext;
         }
         public void Create(Car obj)
         {
-            db.Add(obj);
+            context.Cars.Add(obj);
+            context.SaveChanges();
         }
 
         public void Delete(string name)
         {
-            db.Remove(db.Find(x=>x.Name==name));
+            context.Cars.Remove(context.Cars.ToList().Find(x=>x.Name==name));
+            context.SaveChanges();
         }
 
         public Car Read()
@@ -37,7 +37,7 @@ namespace WebLabParking.DAL.Impl
 
         public IEnumerable<Car> GetAll()
         {
-            return db;
+            return context.Cars;
         }
     }
 }

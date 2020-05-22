@@ -35,10 +35,10 @@ namespace WebLabParking.DAL.Impl
             Client client2 = new Client{Name="Thomas Anderson"};
             Client client3 = new Client{Name="Vincent Vega"};
             Client client4 = new Client{Name="Forrest Gump"};
-            client1.Tickets = new List<ParkingTicket>();
-            client2.Tickets = new List<ParkingTicket>();
-            client3.Tickets = new List<ParkingTicket>();
-            client4.Tickets = new List<ParkingTicket>();
+            //client1.Tickets = new List<ParkingTicket>();
+            //client2.Tickets = new List<ParkingTicket>();
+            //client3.Tickets = new List<ParkingTicket>();
+            //client4.Tickets = new List<ParkingTicket>();
 
 
             Parking parking1 = new Parking{ParkingName = "Parking ONE"};
@@ -63,13 +63,21 @@ namespace WebLabParking.DAL.Impl
             clients.AddRange(new List<Client> { client1, client2, client3, client4 });
             parkings.AddRange(new List<Parking> { parking1, parking2 });
             parkingsPlaces.AddRange(new List<ParkingPlace> { parkingPlace1, parkingPlace2, parkingPlace3, parkingPlace4, parkingPlace5, parkingPlace6, parkingPlace7, parkingPlace8, parkingPlace9 });
-            ParkingTicket parkingTicket1 = new ParkingTicket{Car = cars[0], Client = clients[0], ParkingPlace = parkingsPlaces[0], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket2 = new ParkingTicket{Car = cars[1], Client = clients[1], ParkingPlace = parkingsPlaces[1], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket3 = new ParkingTicket{Car = cars[2], Client = clients[2], ParkingPlace = parkingsPlaces[2], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket4 = new ParkingTicket{Car = cars[3], Client = clients[3], ParkingPlace = parkingsPlaces[3], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket5 = new ParkingTicket{Car = cars[4], Client = clients[0], ParkingPlace = parkingsPlaces[4], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket6 = new ParkingTicket{Car = cars[5], Client = clients[1], ParkingPlace = parkingsPlaces[5], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
-            ParkingTicket parkingTicket7 = new ParkingTicket{Car = cars[6], Client = clients[2], ParkingPlace = parkingsPlaces[6], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13)};
+            ParkingTicket parkingTicket1 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket2 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket3 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket4 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket5 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket6 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            ParkingTicket parkingTicket7 = new ParkingTicket { LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+
+            //ParkingTicket parkingTicket1 = new ParkingTicket { Car = cars[0], Client = clients[0], ParkingPlace = parkingsPlaces[0], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket2 = new ParkingTicket { Car = cars[1], Client = clients[1], ParkingPlace = parkingsPlaces[1], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket3 = new ParkingTicket { Car = cars[2], Client = clients[2], ParkingPlace = parkingsPlaces[2], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket4 = new ParkingTicket { Car = cars[3], Client = clients[3], ParkingPlace = parkingsPlaces[3], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket5 = new ParkingTicket { Car = cars[4], Client = clients[0], ParkingPlace = parkingsPlaces[4], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket6 = new ParkingTicket { Car = cars[5], Client = clients[1], ParkingPlace = parkingsPlaces[5], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
+            //ParkingTicket parkingTicket7 = new ParkingTicket { Car = cars[6], Client = clients[2], ParkingPlace = parkingsPlaces[6], LeavingTime = new DateTime(2020, 5, 10), TakingTime = new DateTime(2020, 5, 13) };
             parkingTickets.AddRange(new List<ParkingTicket> { parkingTicket1, parkingTicket2, parkingTicket3, parkingTicket4, parkingTicket5, parkingTicket6, parkingTicket7 });
             car1.Tickets.Add(parkingTickets[0]);
             car2.Tickets.Add(parkingTickets[1]);
@@ -79,13 +87,13 @@ namespace WebLabParking.DAL.Impl
             car6.Tickets.Add(parkingTickets[5]);
             car7.Tickets.Add(parkingTickets[6]);
 
-            client1.Tickets.Add(parkingTickets[0]);
-            client1.Tickets.Add(parkingTickets[4]);
-            client2.Tickets.Add(parkingTickets[1]);
-            client2.Tickets.Add(parkingTickets[5]);
-            client3.Tickets.Add(parkingTickets[2]);
-            client3.Tickets.Add(parkingTickets[6]);
-            client4.Tickets.Add(parkingTickets[3]);
+            //client1.Tickets.Add(parkingTickets[0]);
+            //client1.Tickets.Add(parkingTickets[4]);
+            //client2.Tickets.Add(parkingTickets[1]);
+            //client2.Tickets.Add(parkingTickets[5]);
+            //client3.Tickets.Add(parkingTickets[2]);
+            //client3.Tickets.Add(parkingTickets[6]);
+            //client4.Tickets.Add(parkingTickets[3]);
 
             parking1.Places.AddRange(new List<ParkingPlace>{parkingsPlaces[0], parkingsPlaces[1], parkingsPlaces[2], parkingsPlaces[3] });
             parking1.Tickets.AddRange(new List<ParkingTicket> { parkingTickets[0], parkingTickets[1], parkingTickets[2], parkingTickets[3] });

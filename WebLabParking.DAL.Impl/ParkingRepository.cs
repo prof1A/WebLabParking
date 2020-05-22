@@ -4,7 +4,7 @@ using WebLabParking.Entities;
 
 namespace WebLabParking.DAL.Impl
 {
-    public class ParkingRepository:IParkingRepository
+    public class ParkingRepository : IParkingRepository
     {
         public List<Parking> db;
 

@@ -17,12 +17,12 @@ namespace WebLabParking.DAL.Impl
         }
         public void Create(ParkingTicket obj)
         {
-            DataBaseSimulation.parkingTickets.Add(obj);
+            //DataBaseSimulation.parkingTickets.Add(obj);
         }
 
         public void Delete(string name)
         {
-           throw new System.NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         public ParkingTicket Read()

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using WebLabParking.DAL.Abstract;
 using WebLabParking.Entities;
 
@@ -6,29 +7,22 @@ namespace WebLabParking.DAL.Impl
 {
     public class ParkingPlaceRepository:IParkingPlaceRepository
     {
-        public List<ParkingPlace> db = new List<ParkingPlace>();
+        private ParkingContext context;
 
-        public ParkingPlaceRepository()
+        public ParkingPlaceRepository(ParkingContext parkingContext)
         {
-            foreach (var i in DataBaseSimulation.parkingsPlaces)
-            {
-                db.Add(i);
-            }
+            context = parkingContext;
         }
         public void Create(ParkingPlace obj)
         {
-            db.Add(obj);
+            context.ParkingPlaces.Add(obj);
+            context.SaveChanges();
         }
 
         public void Delete(string name)
         {
-            db.Remove(db.Find(x => x.Number.ToString() == name));
-            DataBaseSimulation.parkingsPlaces.Remove(
-                DataBaseSimulation.parkingsPlaces.Find((x => x.Number.ToString() == name)));
-            foreach (var i in DataBaseSimulation.parkings)
-            {
-                i.Places.Remove(i.Places.Find(x => x.Number.ToString() == name));
-            }
+            context.ParkingPlaces.Remove(context.ParkingPlaces.ToList().Find(x => x.Number.ToString() == name));
+            context.SaveChanges();
         }
 
         public ParkingPlace Read()

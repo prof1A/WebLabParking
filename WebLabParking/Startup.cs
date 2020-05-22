@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -7,6 +8,7 @@ using WebLabParking.BLL.Abstract;
 using WebLabParking.BLL.Impl;
 using WebLabParking.DAL.Abstract;
 using WebLabParking.DAL.Impl;
+using WebLabParking.Entities;
 
 namespace WebLabParking.Web
 {
@@ -32,6 +34,8 @@ namespace WebLabParking.Web
             services.AddTransient<IParkingService, ParkingService>();
             services.AddTransient<IParkingTicketService, ParkingTicketService>();
             services.AddTransient<IParkingPlaceService, ParkingPlaceService>();
+            string connection = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<ParkingContext>(options => options.UseSqlServer(connection));
         }
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

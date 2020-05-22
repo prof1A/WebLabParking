@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using WebLabParking.DAL.Abstract;
 using WebLabParking.Entities;
 
@@ -6,28 +7,25 @@ namespace WebLabParking.DAL.Impl
 {
     public class ClientRepository : IClientRepository
     {
-        public List<Client> db = new List<Client>();
-
-        public ClientRepository()
+        private ParkingContext context;
+        public ClientRepository(ParkingContext parkingContext)
         {
-            foreach (var i in DataBaseSimulation.clients)
-            {
-                db.Add(i);
-            }
+            context = parkingContext;
         }
         public void Create(Client obj)
         {
-            db.Add(obj);
+            context.Clients.Add(obj);
+            context.SaveChanges();
         }
 
         public void Delete(string name)
         {
-            db.Remove(db.Find(x => x.Name == name));
-            DataBaseSimulation.clients.Remove(DataBaseSimulation.clients.Find(x => x.Name == name));
+            context.Clients.Remove(context.Clients.ToList().Find(x => x.Name == name));
+            context.SaveChanges();
         }
         public Client Read(string name)
         {
-            return DataBaseSimulation.clients.Find(x=>x.Name==name);
+            return context.Clients.ToList().Find(x => x.Name == name);
         }
         public Client Read()
         {
@@ -41,7 +39,7 @@ namespace WebLabParking.DAL.Impl
 
         public IEnumerable<Client> GetAll()
         {
-            return db;
+            return context.Clients;
         }
     }
 }

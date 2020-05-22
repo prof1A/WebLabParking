@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using WebLabParking.Entities;
 using WebLabParking.Models;
@@ -8,10 +9,12 @@ namespace WebLabParking.DAL.Impl
 {
     public class ParkingMapper
     {
+        //ParkingRepository parkingRepository = new ParkingRepository();
         public ParkingDTO ParkingToParkingDTO(Parking parking)
         {
             ParkingDTO parkingDTO = new ParkingDTO();
             parkingDTO.ParkingName = parking.ParkingName;
+            //parkingDTO.id = parking.id;
             parkingDTO.Tickets = new List<ParkingTicketDTO>();
             parkingDTO.Places = new List<ParkingPlaceDTO>();
             ParkingTicketMapper parkingTicketMapper = new ParkingTicketMapper();
@@ -31,23 +34,24 @@ namespace WebLabParking.DAL.Impl
 
         public Parking ParkingDTOToParking(ParkingDTO parkingDTO)
         {
-            Parking parking = new Parking();
-            parking.ParkingName = parkingDTO.ParkingName;
-            parking.Tickets = new List<ParkingTicket>();
-            parking.Places = new List<ParkingPlace>();
-            ParkingTicketMapper parkingTicketMapper = new ParkingTicketMapper();
-            ParkingPlaceMapper parkingPlaceMapper = new ParkingPlaceMapper();
-            foreach (var i in parkingDTO.Tickets)
-            {
-                parking.Tickets.Add(parkingTicketMapper.ParkingTicketDTOToParkingTicket(i));
-            }
+            ////Parking parking = parkingRepository.GetAll().ToList().Find(x => x.id == parkingDTO.id);
 
-            foreach (var i in parkingDTO.Places)
-            {
-                parking.Places.Add(parkingPlaceMapper.ParkingPlaceDTOToParkingPlace(i));
-            }
+            //parking.ParkingName = parkingDTO.ParkingName;
+            //parking.Tickets = new List<ParkingTicket>();
+            //parking.Places = new List<ParkingPlace>();
+            //ParkingTicketMapper parkingTicketMapper = new ParkingTicketMapper();
+            //ParkingPlaceMapper parkingPlaceMapper = new ParkingPlaceMapper();
+            //foreach (var i in parkingDTO.Tickets)
+            //{
+            //    parking.Tickets.Add(parkingTicketMapper.ParkingTicketDTOToParkingTicket(i));
+            //}
 
-            return parking;
+            //foreach (var i in parkingDTO.Places)
+            //{
+            //    parking.Places.Add(parkingPlaceMapper.ParkingPlaceDTOToParkingPlace(i));
+            //}
+
+            return new Parking();
         }
     }
 }

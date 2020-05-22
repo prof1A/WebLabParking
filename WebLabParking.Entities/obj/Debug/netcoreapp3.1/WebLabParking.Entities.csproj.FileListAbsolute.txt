@@ -1,8 +1,12 @@
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\bin\Debug\netcoreapp3.1\WebLabParking.Entities.deps.json
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\bin\Debug\netcoreapp3.1\WebLabParking.Entities.dll
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\bin\Debug\netcoreapp3.1\WebLabParking.Entities.pdb
-C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.csproj.CoreCompileInputs.cache
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.AssemblyInfoInputs.cache
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.AssemblyInfo.cs
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.dll
 C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.pdb
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\bin\Debug\netcoreapp3.1\WebLabParking.Entities.runtimeconfig.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\bin\Debug\netcoreapp3.1\WebLabParking.Entities.runtimeconfig.dev.json
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.genruntimeconfig.cache
+C:\Users\CSharpSila\source\repos\WebLabParking\WebLabParking.Entities\obj\Debug\netcoreapp3.1\WebLabParking.Entities.csproj.CoreCompileInputs.cache

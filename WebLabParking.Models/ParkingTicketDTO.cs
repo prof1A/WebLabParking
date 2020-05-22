@@ -6,6 +6,7 @@ namespace WebLabParking.Models
 {
     public class ParkingTicketDTO
     {
+        public int id { get; set; }
         public DateTime LeavingTime { get; set; }//коли залишила
         public DateTime TakingTime { get; set; }//коли забрала
         //public ParkingPlaceDTO ParkingPlace { get; set; }

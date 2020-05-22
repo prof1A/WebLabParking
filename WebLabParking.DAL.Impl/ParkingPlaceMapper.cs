@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using WebLabParking.Entities;
 using WebLabParking.Models;
@@ -8,6 +9,7 @@ namespace WebLabParking.DAL.Impl
 {
     public class ParkingPlaceMapper
     {
+        //ParkingPlaceRepository parkingPlaceRepository = new ParkingPlaceRepository();
         public ParkingPlaceDTO ParkingPlaceToParkingPlaceDTO(ParkingPlace parkingPlace)
         {
             ParkingPlaceDTO parkingPlaceDTO = new ParkingPlaceDTO();
@@ -19,11 +21,11 @@ namespace WebLabParking.DAL.Impl
 
         public ParkingPlace ParkingPlaceDTOToParkingPlace(ParkingPlaceDTO parkingPlaceDTO)
         {
-            ParkingPlace parkingPlace = new ParkingPlace();
-            parkingPlace.Number = parkingPlaceDTO.Number;
-            ParkingTicketMapper parkingTicketMapper = new ParkingTicketMapper();
-            parkingPlace.Ticket = parkingTicketMapper.ParkingTicketDTOToParkingTicket(parkingPlaceDTO.Ticket);
-            return parkingPlace;
+            ////ParkingPlace parkingPlace = parkingPlaceRepository.GetAll().ToList().Find(x => x.id == parkingPlaceDTO.id);
+            //parkingPlace.Number = parkingPlaceDTO.Number;
+            //ParkingTicketMapper parkingTicketMapper = new ParkingTicketMapper();
+            //parkingPlace.Ticket = parkingTicketMapper.ParkingTicketDTOToParkingTicket(parkingPlaceDTO.Ticket);
+            return new ParkingPlace();
         }
     }
 }
