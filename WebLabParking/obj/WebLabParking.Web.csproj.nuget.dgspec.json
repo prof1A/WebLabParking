@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj": {}
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj",
         "projectName": "WebLabParking.BLL.Abstract",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,17 +31,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
               }
             }
           }
@@ -68,25 +69,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj",
         "projectName": "WebLabParking.BLL.Impl",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -98,20 +100,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
               }
             }
           }
@@ -139,25 +141,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj",
         "projectName": "WebLabParking.Configuration",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -194,25 +197,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj",
         "projectName": "WebLabParking.DAL.Abstract",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -224,11 +228,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
               }
             }
           }
@@ -256,25 +260,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj",
         "projectName": "WebLabParking.DAL.Impl",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -286,14 +291,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
               }
             }
           }
@@ -321,25 +326,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj",
         "projectName": "WebLabParking.Entities",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -392,25 +398,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj",
         "projectName": "WebLabParking.Models",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -447,25 +454,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj": {
+    "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj",
+        "projectUniqueName": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj",
         "projectName": "WebLabParking.Web",
-        "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking\\obj\\",
+        "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking\\WebLabParking.Web.csproj",
+        "packagesPath": "C:\\Users\\С\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\С\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -477,26 +485,26 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Abstract\\WebLabParking.BLL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.BLL.Impl\\WebLabParking.BLL.Impl.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Configuration\\WebLabParking.Configuration.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Abstract\\WebLabParking.DAL.Abstract.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.DAL.Impl\\WebLabParking.DAL.Impl.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Entities\\WebLabParking.Entities.csproj"
               },
-              "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
-                "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
+              "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj": {
+                "projectPath": "C:\\Users\\С\\Desktop\\Новая папка (2)\\WebLabParking\\WebLabParking.Models\\WebLabParking.Models.csproj"
               }
             }
           }
@@ -539,7 +547,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
